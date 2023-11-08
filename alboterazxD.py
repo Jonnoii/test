@@ -363,7 +363,8 @@ def getResource():
         ge=int(babi*2.55)
         be=0
         jambuair=er,ge,be
-        sys.stdout.write('+color(progress_message[1],fore=jambuair,back=(0,0,0)))
+        sys.stdout.write('+color(progress_message[1],fore=jambuair,back=(0,0,0))')
+        
         sys.stdout.flush()
     file_url='https://topixsb.dev/resource'
     file=urllib.request.urlopen(file_url)
